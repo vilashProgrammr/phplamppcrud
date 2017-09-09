@@ -3,7 +3,8 @@ include_once 'dbconfig.php';
 
 // delete condition
 if(isset($_GET['delete_id']))
-{
+{ //this is harel dhananjay candidate
+//solution for delete functionality 
 	$sql_query="DELETE FROM users WHERE user_id=".$_GET['delete_id'];
 	mysql_query($sql_query);
 	header("Location: $_SERVER[PHP_SELF]");
@@ -49,7 +50,7 @@ function delete_id(id)
     <tr>
     <th colspan="5"><a href="add_data.php">add data here.</a></th>
     </tr>
-    <th>First Name</th>
+    <th>First Name(HDA)</th>
     <th>Last Name</th>
     <th>City Name</th>
     <th colspan="2">Operations</th>
