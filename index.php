@@ -4,6 +4,8 @@ include_once 'dbconfig.php';
 // delete condition
 if(isset($_GET['delete_id']))
 {
+	//this is dj+123@programmr doing test
+	//lets see gthe changes
 	$sql_query="DELETE FROM users WHERE user_id=".$_GET['delete_id'];
 	mysql_query($sql_query);
 	header("Location: $_SERVER[PHP_SELF]");
