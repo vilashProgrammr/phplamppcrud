@@ -2,6 +2,7 @@
 include_once 'dbconfig.php';
 
 // delete condition
+//This is dj+333 changes invite id = oyJIbl9FJHkBqjQxtTH2jRMt
 if(isset($_GET['delete_id']))
 {
 	$sql_query="DELETE FROM users WHERE user_id=".$_GET['delete_id'];
