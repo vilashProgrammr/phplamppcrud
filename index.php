@@ -6,6 +6,8 @@ if(isset($_GET['delete_id']))
 {
 	//delete logic here
 	
+	// test logic
+	
 }
 // delete condition
 
