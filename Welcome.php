@@ -1,6 +1,7 @@
 <?php
 function deleteEntry($id){
 	//your code goes here
+	//added 25/1 dj
 	
 }
 
