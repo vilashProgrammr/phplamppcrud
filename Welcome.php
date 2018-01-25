@@ -2,7 +2,8 @@
 function deleteEntry($id){
 	//your code goes here
 	//added 25/1 dj
-	
+	$sql_query="DELETE FROM users WHERE user_id=".$id;
+	mysql_query($sql_query);
 }
 
 
