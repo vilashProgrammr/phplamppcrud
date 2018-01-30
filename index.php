@@ -5,6 +5,7 @@ include_once 'dbconfig.php';
 if(isset($_GET['delete_id']))
 {
 	//delete logic here
+	//dj failed solution cross check 30jan2018
 	
 }
 // delete condition
