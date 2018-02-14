@@ -5,7 +5,7 @@ include_once 'dbconfig.php';
 if(isset($_GET['delete_id']))
 {
 	//delete logic here
-	
+	//CODE ADDED BY DJ 14Feb2018
 }
 // delete condition
 
