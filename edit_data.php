@@ -47,7 +47,7 @@ if(isset($_POST['btn-cancel']))
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>CRUD Operations With PHP and MySql - By Coding Cage</title>
+<title>CRUD Operations With PHP and MySql </title>
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
@@ -55,7 +55,7 @@ if(isset($_POST['btn-cancel']))
 
 <div id="header">
 	<div id="content">
-    <label>CRUD Operations With PHP and MySql - <a href="http://www.codingcage.com" target="_blank">By Coding Cage</a></label>
+    <label>CRUD Operations With PHP and MySQL</label>
     </div>
 </div>
 
@@ -74,7 +74,7 @@ if(isset($_POST['btn-cancel']))
     </tr>
     <tr>
     <td>
-    <button type="submit" name="btn-update"><strong>UPDATE</strong></button>
+    <button type="submit" name="btn-update"><strong>Update</strong></button>
     <button type="submit" name="btn-cancel"><strong>Cancel</strong></button>
     </td>
     </tr>

@@ -41,7 +41,7 @@ function delete_id(id)
     <label>CRUD Operations With PHP and MySql - <a href="http://www.codingcage.com" target="_blank">By Coding Cage</a></label>
     </div>
 </div>
-
+<h3> This is ia git integratoin demo.</h3>
 <div id="body">
 	<div id="content">
     <table align="center">
@@ -75,7 +75,7 @@ function delete_id(id)
 	{
 		?>
         <tr>
-        <td colspan="5">No Data Found !</td>
+        <td colspan="5">Sorry, we have no data for you....</td>
         </tr>
         <?php
 	}
