@@ -5,7 +5,8 @@ include_once 'dbconfig.php';
 if(isset($_GET['delete_id']))
 {
 	//delete logic here
-	
+	//this is new changed commit test dh;
+	//asd
 }
 // delete condition
 
